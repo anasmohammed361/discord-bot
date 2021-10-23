@@ -1,0 +1,17 @@
+{
+  "name": "dis-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "initiate": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.2.0",
+    "dotenv": "^10.0.0"
+  }
+}
