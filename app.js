@@ -1,5 +1,5 @@
 import {Client} from "discord.js";
-import apiCall from "./coc-api.mjs";
+import {apiCallPlayer} from "./coc-api.mjs";
 import { config } from "dotenv";
 config()
 const client= new Client({ intents: ['GUILDS', 'GUILD_MESSAGES']})
