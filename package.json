@@ -1,7 +1,7 @@
 {
   "name": "dis-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "a basic discord bot with node js",
   "main": "app.js",
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
     "initiate": "node app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mohammed Anas H",
   "license": "ISC",
   "dependencies": {
     "clash-of-clans-api": "^0.6.4",
