@@ -5,8 +5,7 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon app.js",
-    "initiate": "node app.js"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "Mohammed Anas H",
