@@ -3,7 +3,7 @@ export  function tagConverter(str){
   return str.toUpperCase()
 }
 export function commandToTag(str,exp){
-  let expression=new RegExp(exp,'gi')
+  let expression=new RegExp(exp,'gi');
   let output= str.replace(expression,"");
   return output.replace(/[? +]/g,"")
 }

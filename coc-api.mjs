@@ -6,7 +6,7 @@ export  async function apiCallPlayer(token,tag){
     token:token
   })
   let tags=commandToTag(tag,"player")
-  let data=await client.playerByTag(tagConverter(...tags));
+  let data=await client.playerByTag(tagConverter(tags));
   return data
 }
   catch(err){
@@ -21,7 +21,7 @@ export  async function apiCallClan(token,tag){
      token: token
    })
    let tags=commandToTag(tag,"clan")
-   let data=await client.clanByTag(tagConverter(...tags));
+   let data=await client.clanByTag(tagConverter(tags));
    return data
  }
    catch(err){
