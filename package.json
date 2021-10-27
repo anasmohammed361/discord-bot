@@ -4,9 +4,6 @@
   "description": "a basic discord bot with node js",
   "main": "app.js",
   "type": "module",
-  "scripts": {
-    "start": "node app.js"
-  },
   "engines": {
     "node": "16.9.0"
   },
