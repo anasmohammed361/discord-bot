@@ -20,7 +20,7 @@ client.on("messageCreate", async (msg)=>{
  try{   if(!msg.content.startsWith(prefix)||msg.author.id=="900983852674211920") return;
     if (msg.content.match(/help/gi) !== null) {
       await mongoose.connect(dbUri);
-      let dataFromDb=await modelD.find()
+      let dataFromDb=await modelD.find();
       let ok=dataFromDb.map(elem=>[elem.command,elem.use])
       let output=ok.map(elem=>`${elem[0]}:${elem[1]}`);
       msg.channel.send(outputFactor(...output));
